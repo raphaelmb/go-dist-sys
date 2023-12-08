@@ -1,0 +1,4 @@
+2023/12/07 14:12:29 [GradingService] - Failed to deregister service. Registry service responded with code 500
+
+2023/12/07 14:12:29 [GradingService] - http: Server closed
+

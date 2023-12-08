@@ -17,4 +17,13 @@ build_grading:
 	@env GOOS=linux CGO_ENABLED=0 go build -o bin/${GRADING_BINARY} ./cmd/gradingservice
 	@echo "Done!"
 
+run_registry:
+	@./bin/registry
+
+run_log:
+	@./bin/log
+
+run_grading:
+	@./bin/grading
+
 .PHONY: build_log build_registry build_grading
